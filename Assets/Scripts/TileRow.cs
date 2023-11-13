@@ -9,6 +9,6 @@ public class TileRow : MonoBehaviour
 
     private void Awake()
     {
-        cells = GetComponentInChildren<TileCell[]>();
+        cells = GetComponentsInChildren<TileCell>();
     }
 }
